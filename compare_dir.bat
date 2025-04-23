@@ -1,3 +1,5 @@
+::Usage compare_dir.bat <dir1> <dir2>
+
 @echo off
 chcp 1251
 if "%~2"=="" (
