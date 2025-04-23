@@ -1,9 +1,8 @@
-::Usage guine: find_compare.bat <filename.extensin>
+::Usage: find_compare.bat <filename.extensin>
 
 @echo off
 chcp 1251 >nul
 setlocal
-setlocal EnableDelayedExpansion
 
 if "%~1"=="" (
     echo Ошибка: Не указано имя файла.
